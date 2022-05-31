@@ -1,0 +1,51 @@
+.ourcoffee {
+    padding-top: 130px;
+    padding-bottom: 84px;
+    background-image: url(../ourCoffee/img/ourCoffeImg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        color: #FFFFFF;
+    }
+    .burger {
+        position: absolute;
+        top: 15px;
+        left: 22px;
+        width: 35px;
+        height: 35px;
+        .rotate {
+            transform: rotate(90deg);
+            transition: transform 400ms;
+        }
+        .hide {
+            display: none;
+        }
+        .show {
+            display: flex;
+        }
+       
+        &__item {
+            margin-left: -37px;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            gap: 1px;
+        }
+        &__li {
+            width: 100px;
+        }
+        &__items {
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 12px;
+            width: 30px;
+            color: #FFFFFF;
+            
+        }
+    } 
+}
+

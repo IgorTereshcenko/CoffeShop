@@ -1,0 +1,13 @@
+body {
+  margin-left: 0;
+  margin-right: 0px;
+  margin-top: -12px;
+  font-family: 'Merienda', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* .container {
+  max-width: 802px;
+  margin: 0 auto;
+}

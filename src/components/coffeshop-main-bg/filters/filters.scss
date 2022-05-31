@@ -1,0 +1,54 @@
+.filters {
+    &__wrappButtons {
+        margin-left: 426px;
+        margin-top: -30px;
+        width: 326px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__buttonsText {
+        font-weight: 400;
+        font-size: 14px;
+        color: #000000;
+    }
+    &__btns {
+        background: #FFFFFF;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 4px 0px 0px 4px;
+        border:none;
+        width: 75px;
+        height: 30px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+        font-family: 'Merienda';
+        cursor: pointer;
+        &:hover {
+            background:#f5cfcf;
+        }
+    }
+    .active {
+        background: #f5cfcf;
+    }
+}
+
+@media (max-width: 768px) {
+    .filters {
+        &__wrappButtons {
+            margin-left: 63px;
+            margin-top: 24px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .filters {
+        &__wrappButtons {
+            margin-left: 17px;
+            width: 297px;
+        }
+    }
+}

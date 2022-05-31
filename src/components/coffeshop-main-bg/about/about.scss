@@ -1,0 +1,42 @@
+.about {
+    padding-top: 80px;
+    padding-bottom: 101px;
+    &__header {
+        text-align: center;
+        font-weight: 400;
+        font-size: 24px;
+        color: #000000;
+    }
+    &__descr {
+        padding-top: 40px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width: 589px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #000000;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding-top: 26px;
+        &__descr {
+            width: 533px;
+            font-size: 14px;
+            line-height: 19px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .about {
+        &__descr {
+            width: 278px;
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+}
