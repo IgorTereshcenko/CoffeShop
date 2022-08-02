@@ -6,7 +6,6 @@ import "./header.scss";
 import '../../menu.scss';
 import '../../coffee-img.scss';
 import burger from '../header/img/burger.svg';
-import ScrollableAnchor from 'react-scrollable-anchor/lib/ScrollableAnchor';
 
 
 class  Header extends Component {
