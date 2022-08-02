@@ -1,4 +1,4 @@
-import { Component } from 'react/cjs/react.development';
+import { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import About from '../coffeshop-main-bg/about/about';
 import Best from '../coffeshop-main-bg/best/best';
